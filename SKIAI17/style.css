@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.content {
+    padding: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #6a11cb;
+}
+footer {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
